@@ -8908,12 +8908,12 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="LTC1660_1" gate="G$1" pin="14"/>
-<wire x1="-144.78" y1="200.66" x2="-137.16" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="-144.78" y1="200.66" x2="-144.78" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="-144.78" y1="220.98" x2="-200.66" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="M-DRIVER_4" gate="G$1" pin="FIN"/>
 <wire x1="-200.66" y1="220.98" x2="-200.66" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="LTC1660_1" gate="G$1" pin="13"/>
+<wire x1="-137.16" y1="203.2" x2="-144.78" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="203.2" x2="-144.78" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -9786,11 +9786,11 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </net>
 <net name="N$26" class="0">
 <segment>
+<pinref part="LTC1660_1" gate="G$1" pin="14"/>
+<wire x1="-137.16" y1="200.66" x2="-170.18" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="-170.18" y1="200.66" x2="-170.18" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="M-DRIVER_3" gate="G$1" pin="RIN"/>
-<wire x1="-172.72" y1="198.12" x2="-170.18" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="-170.18" y1="198.12" x2="-170.18" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="LTC1660_1" gate="G$1" pin="13"/>
-<wire x1="-170.18" y1="203.2" x2="-137.16" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="-170.18" y1="198.12" x2="-172.72" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -8315,18 +8315,18 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <packages>
 <package name="BD6211F-E2">
 <description>motor driver: BD6211F-E2</description>
-<smd name="1" x="-2.54" y="2.54" dx="1.2" dy="0.42" layer="1"/>
-<smd name="2" x="-2.54" y="1.27" dx="1.2" dy="0.42" layer="1" rot="R180"/>
-<smd name="3" x="-2.54" y="0" dx="1.2" dy="0.42" layer="1"/>
-<smd name="4" x="-2.54" y="-1.27" dx="1.2" dy="0.42" layer="1" rot="R180"/>
-<smd name="8" x="2.76" y="2.54" dx="1.2" dy="0.42" layer="1" rot="R180"/>
-<smd name="7" x="2.76" y="1.27" dx="1.2" dy="0.42" layer="1"/>
-<smd name="6" x="2.76" y="0" dx="1.2" dy="0.42" layer="1" rot="R180"/>
-<smd name="5" x="2.76" y="-1.27" dx="1.2" dy="0.42" layer="1"/>
-<wire x1="-1.905" y1="3.175" x2="-1.905" y2="-1.905" width="0.0762" layer="21"/>
-<wire x1="-1.905" y1="-1.905" x2="2.159" y2="-1.905" width="0.0762" layer="21"/>
-<wire x1="2.159" y1="-1.905" x2="2.159" y2="3.175" width="0.0762" layer="21"/>
-<wire x1="2.159" y1="3.175" x2="-1.905" y2="3.175" width="0.0762" layer="21"/>
+<smd name="1" x="-2.54" y="2.54" dx="2.5" dy="0.5" layer="1"/>
+<smd name="2" x="-2.54" y="1.27" dx="2.5" dy="0.5" layer="1" rot="R180"/>
+<smd name="3" x="-2.54" y="0" dx="2.5" dy="0.5" layer="1"/>
+<smd name="4" x="-2.54" y="-1.27" dx="2.5" dy="0.5" layer="1" rot="R180"/>
+<smd name="8" x="5.07" y="2.54" dx="2.5" dy="0.5" layer="1" rot="R180"/>
+<smd name="7" x="5.07" y="1.27" dx="2.5" dy="0.5" layer="1"/>
+<smd name="6" x="5.07" y="0" dx="2.5" dy="0.5" layer="1" rot="R180"/>
+<smd name="5" x="5.07" y="-1.27" dx="2.5" dy="0.5" layer="1"/>
+<wire x1="-2.286" y1="3.175" x2="-2.286" y2="-1.905" width="0.0762" layer="21"/>
+<wire x1="-2.286" y1="-1.905" x2="4.699" y2="-1.905" width="0.0762" layer="21"/>
+<wire x1="4.699" y1="-1.905" x2="4.699" y2="3.175" width="0.0762" layer="21"/>
+<wire x1="4.699" y1="3.175" x2="-2.286" y2="3.175" width="0.0762" layer="21"/>
 <text x="-1.651" y="2.032" size="0.6096" layer="25">BD6211F</text>
 </package>
 <package name="SPC4078" urn="urn:adsk.eagle:footprint:7489/1">
