@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/ushiyama/OneDrive/Documents/EAGLE/projects/controll_8motor_dac/controll_8motor_dac.brd
+Job           : C:/Users/ushiyama/Documents/EAGLE/projects/controll_8motor_dac/controll_8motor_dac.brd
 
-Start at      : 07:49:05 (2019/08/28)
-End at        : 07:50:28 (2019/08/28)
-Elapsed time  : 00:01:21
+Start at      : 16:45:57 (2019/08/28)
+End at        : 16:47:22 (2019/08/28)
+Elapsed time  : 00:00:55
 
-Signals       :    59   RoutingGrid: 9 mil  Layers: 1
-Connections   :   152   predefined:  0 ( 0 Vias )
+Signals       :    60   RoutingGrid: 9.84252 mil  Layers: 1
+Connections   :   151   predefined:  0 ( 0 Vias )
 
-Router memory :   300048
+Router memory :   251034
 
-Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
+Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:06  00:00:58  00:00:01  00:00:02  00:00:02  00:00:01  00:00:02  00:00:01  00:00:02  00:00:01  00:00:01  00:00:01  00:00:01  00:00:02
-Number of Ripups  :         0       430         0         0         0         0         0         0         0         0         0         0         0         0
-max. Level        :         0         4         0         0         0         0         0         0         0         0         0         0         0         0
-max. Total        :         0        41         0         0         0         0         0         0         0         0         0         0         0         0
+Time per pass     :  00:00:51  00:00:01  00:00:01  00:00:01  00:00:01
+Number of Ripups  :       341         0         0         0         0
+max. Level        :         3         0         0         0         0
+max. Total        :        53         0         0         0         0
 
-Routed            :        91       149       149       149       149       149       149       149       148       148       148       148       148       148
-Vias              :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
-Resolution        :    59.9 %    98.0 %    98.0 %    98.0 %    98.0 %    98.0 %    98.0 %    98.0 %    97.4 %    97.4 %    97.4 %    97.4 %    97.4 %    97.4 %
+Routed            :       151       151       151       151       151
+Vias              :         0         0         0         0         0
+Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 97.4% finished
+Final             : 100.0% finished
