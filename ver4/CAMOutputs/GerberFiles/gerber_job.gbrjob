@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-08-30T07:49:41Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.3.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "controll_8motor_dac"
+        },
+        "Owner": "Keigo Ushiyama <u1610096@edu.cc.uec.ac.jp>",
+        "Size": {
+            "X": 119.36,
+            "Y": 73.33
+        }
+    }
+}

@@ -8646,6 +8646,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="M-DRIVER_6" library="BD6211F" deviceset="BD6211F-E2" device=""/>
 <part name="M-DRIVER_5" library="BD6211F" deviceset="BD6211F-E2" device=""/>
 <part name="U$1" library="adafruit" deviceset="2.1MMJACK" device="THM"/>
+<part name="DC-JUMP" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -8866,6 +8867,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="M-DRIVER_5" gate="G$1" x="-83.82" y="132.08" smashed="yes"/>
 <instance part="U$1" gate="G$1" x="38.1" y="96.52" smashed="yes">
 <attribute name="NAME" x="35.56" y="101.6" size="1.27" layer="95"/>
+</instance>
+<instance part="DC-JUMP" gate="G$1" x="43.18" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="37.465" y="69.85" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="48.26" y="69.85" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -9291,6 +9296,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="U$1" gate="G$1" pin="TIP"/>
 <wire x1="43.18" y1="106.68" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
 <junction x="43.18" y="106.68"/>
+<pinref part="DC-JUMP" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="73.66" x2="40.64" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="99.06" x2="43.18" y2="99.06" width="0.1524" layer="91"/>
+<junction x="43.18" y="99.06"/>
 </segment>
 </net>
 <net name="ARDUINO-5V/GND" class="0">
@@ -9586,6 +9595,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="U$1" gate="G$1" pin="RING"/>
 <wire x1="43.18" y1="93.98" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
 <junction x="43.18" y="88.9"/>
+<pinref part="DC-JUMP" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="88.9" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
