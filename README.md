@@ -3,7 +3,7 @@ View this project on [CADLAB.io](https://cadlab.io/project/2098).
 
 # controll_8motor_dac_brd
 
-- <span style="font-color:red; font-size: 15px"> この基板はバグがあるのでまだ使えない </span>
+- <span style="color:red; font-size: 20px"> この基板はバグがあるのでまだ使えない </span>
   - 配線ミス (なおしたか覚えてないので書いておきます)
   - モータを回すのに電源が足りない
   - マイコンとジャンパーでつながないといけないので設計として修正しなければならない
