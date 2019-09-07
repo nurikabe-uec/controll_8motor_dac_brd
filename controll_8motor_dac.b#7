@@ -1461,15 +1461,15 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="18mil"/>
-<param name="mdWirePad" value="18mil"/>
-<param name="mdWireVia" value="18mil"/>
-<param name="mdPadPad" value="18mil"/>
-<param name="mdPadVia" value="18mil"/>
-<param name="mdViaVia" value="18mil"/>
-<param name="mdSmdPad" value="18mil"/>
-<param name="mdSmdVia" value="18mil"/>
-<param name="mdSmdSmd" value="18mil"/>
+<param name="mdWireWire" value="15mil"/>
+<param name="mdWirePad" value="15mil"/>
+<param name="mdWireVia" value="15mil"/>
+<param name="mdPadPad" value="15mil"/>
+<param name="mdPadVia" value="15mil"/>
+<param name="mdViaVia" value="15mil"/>
+<param name="mdSmdPad" value="15mil"/>
+<param name="mdSmdVia" value="15mil"/>
+<param name="mdSmdSmd" value="15mil"/>
 <param name="mdViaViaSameLayer" value="6mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="40mil"/>
@@ -1532,7 +1532,7 @@ design rules under a new name.</description>
 </designrules>
 <autorouter>
 <pass name="Default">
-<param name="RoutingGrid" value="9mil"/>
+<param name="RoutingGrid" value="0.125mm"/>
 <param name="AutoGrid" value="1"/>
 <param name="Efforts" value="2"/>
 <param name="TopRouterVariant" value="1"/>
@@ -1552,7 +1552,7 @@ design rules under a new name.</description>
 <param name="PrefDir.13" value="0"/>
 <param name="PrefDir.14" value="0"/>
 <param name="PrefDir.15" value="0"/>
-<param name="PrefDir.16" value="a"/>
+<param name="PrefDir.16" value="\"/>
 <param name="cfVia" value="90"/>
 <param name="cfNonPref" value="5"/>
 <param name="cfChangeDir" value="2"/>
@@ -1958,47 +1958,47 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="LTC1660_1" pad="12"/>
 <contactref element="M-DRIVER3" pad="5"/>
-<wire x1="44.45" y1="59.69" x2="40.64" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="46.99" x2="44.45" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="LTC1660_1" pad="13"/>
 <contactref element="M-DRIVER3" pad="4"/>
-<wire x1="36.83" y1="59.69" x2="38.1" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="46.99" x2="36.83" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="LTC1660_1" pad="15"/>
 <contactref element="M-DRIVER4" pad="4"/>
-<wire x1="49.53" y1="59.69" x2="33.02" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="33.02" y1="46.99" x2="49.53" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="LTC1660_2" pad="12"/>
 <contactref element="M-DRIVER7" pad="5"/>
-<wire x1="95.25" y1="59.69" x2="81.28" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="45.72" x2="95.25" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="LTC1660_2" pad="14"/>
 <contactref element="M-DRIVER8" pad="5"/>
-<wire x1="107.95" y1="59.69" x2="86.36" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="86.36" y1="45.72" x2="107.95" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="LTC1660_2" pad="15"/>
 <contactref element="M-DRIVER8" pad="4"/>
-<wire x1="100.33" y1="59.69" x2="88.9" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="88.9" y1="45.72" x2="100.33" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="LTC1660_1" pad="5"/>
 <contactref element="M-DRIVER2" pad="5"/>
-<wire x1="31.75" y1="59.69" x2="40.64" y2="39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="39.37" x2="31.75" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="LTC1660_1" pad="4"/>
 <contactref element="M-DRIVER2" pad="4"/>
-<wire x1="24.13" y1="59.69" x2="38.1" y2="39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="39.37" x2="24.13" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="LTC1660_1" pad="3"/>
 <contactref element="M-DRIVER1" pad="5"/>
-<wire x1="19.05" y1="59.69" x2="35.56" y2="39.37" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="39.37" x2="19.05" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="LTC1660_1" pad="2"/>
@@ -2234,7 +2234,7 @@ design rules under a new name.</description>
 <signal name="N$6">
 <contactref element="LTC1660_2" pad="13"/>
 <contactref element="M-DRIVER7" pad="4"/>
-<wire x1="87.63" y1="59.69" x2="83.82" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="83.82" y1="45.72" x2="87.63" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
 <contactref element="M-OUTPUT_7" pad="2"/>
@@ -2346,30 +2346,30 @@ design rules under a new name.</description>
 <contactref element="M-DRIVER7" pad="2"/>
 <contactref element="M-DRIVER7" pad="3"/>
 <contactref element="M-DRIVER7" pad="6"/>
-<wire x1="19.05" y1="62.23" x2="113.03" y2="48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="62.23" x2="19.05" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="62.23" x2="11.43" y2="64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="31.75" y1="62.23" x2="11.43" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="24.13" y1="62.23" x2="31.75" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="24.13" y1="64.77" x2="24.13" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="44.45" y1="62.23" x2="24.13" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="36.83" y1="62.23" x2="44.45" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="36.83" y1="62.23" x2="36.83" y2="64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="57.15" y1="62.23" x2="36.83" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="49.53" y1="62.23" x2="57.15" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="49.53" y1="64.77" x2="49.53" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="69.85" y1="62.23" x2="49.53" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="62.23" y1="62.23" x2="69.85" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="62.23" y1="64.77" x2="62.23" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="82.55" y1="62.23" x2="62.23" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="74.93" y1="62.23" x2="82.55" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="74.93" y1="64.77" x2="74.93" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="107.95" y1="62.23" x2="74.93" y2="62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="100.33" y1="62.23" x2="107.95" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="100.33" y1="62.23" x2="100.33" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="100.33" y1="64.77" x2="100.33" y2="62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="95.25" y1="62.23" x2="100.33" y2="62.23" width="0" layer="19" extent="1-1"/>
 <wire x1="87.63" y1="62.23" x2="95.25" y2="62.23" width="0" layer="19" extent="1-1"/>
-<wire x1="87.63" y1="62.23" x2="87.63" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="87.63" y1="64.77" x2="87.63" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="82.55" y1="62.23" x2="87.63" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="74.93" y1="62.23" x2="82.55" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="74.93" y1="64.77" x2="74.93" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="69.85" y1="62.23" x2="74.93" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="62.23" x2="69.85" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="64.77" x2="62.23" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="57.15" y1="62.23" x2="62.23" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="49.53" y1="62.23" x2="57.15" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="49.53" y1="64.77" x2="49.53" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="44.45" y1="62.23" x2="49.53" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="36.83" y1="62.23" x2="44.45" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="36.83" y1="64.77" x2="36.83" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="62.23" x2="36.83" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="62.23" x2="31.75" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="24.13" y1="64.77" x2="24.13" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="62.23" x2="24.13" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="62.23" x2="19.05" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="64.77" x2="11.43" y2="62.23" width="0" layer="19" extent="1-1"/>
+<wire x1="113.03" y1="48.26" x2="107.95" y2="62.23" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="M-OUTPUT2" pad="2"/>
@@ -2384,7 +2384,7 @@ design rules under a new name.</description>
 <signal name="N$29">
 <contactref element="LTC1660_2" pad="5"/>
 <contactref element="M-DRIVER6" pad="5"/>
-<wire x1="82.55" y1="59.69" x2="81.28" y2="53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="81.28" y1="53.34" x2="82.55" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="M-OUTPUT5" pad="2"/>
@@ -2399,7 +2399,7 @@ design rules under a new name.</description>
 <signal name="N$26">
 <contactref element="LTC1660_1" pad="14"/>
 <contactref element="M-DRIVER4" pad="5"/>
-<wire x1="57.15" y1="59.69" x2="35.56" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="35.56" y1="46.99" x2="57.15" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$24">
 <contactref element="M-DRIVER1" pad="7"/>

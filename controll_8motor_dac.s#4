@@ -9514,10 +9514,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="安定化電源1" gate="G$1" pin="2"/>
 <wire x1="-167.64" y1="284.48" x2="-129.54" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="284.48" x2="-129.54" y2="256.54" width="0.1524" layer="91"/>
-<wire x1="-167.64" y1="236.22" x2="-167.64" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="-167.64" y1="205.74" x2="-167.64" y2="236.22" width="0.1524" layer="91"/>
 <junction x="-167.64" y="284.48"/>
 <junction x="-129.54" y="284.48"/>
 <pinref part="MCP3208‐1" gate="G$1" pin="14"/>
+<wire x1="-167.64" y1="236.22" x2="-167.64" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="144.78" x2="-2.54" y2="81.28" width="0.1524" layer="91"/>
 <junction x="-2.54" y="81.28"/>
 <junction x="22.86" y="91.44"/>
@@ -9530,37 +9531,40 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <junction x="22.86" y="88.9"/>
 <wire x1="58.42" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="88.9" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-167.64" y1="236.22" x2="-172.72" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="-167.64" y1="205.74" x2="-172.72" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="-167.64" y1="167.64" x2="-172.72" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="-167.64" y1="236.22" x2="-167.64" y2="205.74" width="0.1524" layer="91"/>
-<junction x="-167.64" y="236.22"/>
 <wire x1="-167.64" y1="205.74" x2="-167.64" y2="167.64" width="0.1524" layer="91"/>
-<junction x="-167.64" y="205.74"/>
 <wire x1="-167.64" y1="167.64" x2="-167.64" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="-167.64" y1="137.16" x2="-172.72" y2="137.16" width="0.1524" layer="91"/>
-<junction x="-167.64" y="167.64"/>
-<wire x1="-68.58" y1="236.22" x2="-66.04" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="236.22" x2="-66.04" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="284.48" x2="-129.54" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="236.22" x2="-66.04" y2="205.74" width="0.1524" layer="91"/>
-<junction x="-66.04" y="236.22"/>
-<wire x1="-66.04" y1="205.74" x2="-68.58" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="205.74" x2="-66.04" y2="165.1" width="0.1524" layer="91"/>
-<junction x="-66.04" y="205.74"/>
 <wire x1="-66.04" y1="165.1" x2="-68.58" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="165.1" x2="-66.04" y2="134.62" width="0.1524" layer="91"/>
 <junction x="-66.04" y="165.1"/>
-<wire x1="-66.04" y1="134.62" x2="-68.58" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="RING"/>
 <wire x1="43.18" y1="93.98" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
 <junction x="43.18" y="88.9"/>
 <pinref part="DC-JUMP" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="88.9" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="M-DRIVER1" gate="G$1" pin="P$8"/>
-<pinref part="M-DRIVER2" gate="G$1" pin="P$8"/>
-<pinref part="M-DRIVER5" gate="G$1" pin="P$8"/>
 <pinref part="M-DRIVER6" gate="G$1" pin="P$8"/>
+<pinref part="M-DRIVER2" gate="G$1" pin="P$8"/>
+<wire x1="-68.58" y1="236.22" x2="-66.04" y2="236.22" width="0.1524" layer="91"/>
+<junction x="-66.04" y="236.22"/>
+<pinref part="M-DRIVER1" gate="G$1" pin="P$8"/>
+<wire x1="-68.58" y1="205.74" x2="-66.04" y2="205.74" width="0.1524" layer="91"/>
+<junction x="-66.04" y="205.74"/>
+<pinref part="M-DRIVER4" gate="G$1" pin="P$8"/>
+<wire x1="-172.72" y1="205.74" x2="-167.64" y2="205.74" width="0.1524" layer="91"/>
+<junction x="-167.64" y="205.74"/>
+<pinref part="M-DRIVER3" gate="G$1" pin="P$8"/>
+<wire x1="-172.72" y1="236.22" x2="-167.64" y2="236.22" width="0.1524" layer="91"/>
+<junction x="-167.64" y="236.22"/>
+<pinref part="M-DRIVER7" gate="G$1" pin="P$8"/>
+<wire x1="-172.72" y1="167.64" x2="-167.64" y2="167.64" width="0.1524" layer="91"/>
+<junction x="-167.64" y="167.64"/>
+<pinref part="M-DRIVER8" gate="G$1" pin="P$8"/>
+<wire x1="-167.64" y1="137.16" x2="-172.72" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="M-DRIVER5" gate="G$1" pin="P$8"/>
+<wire x1="-68.58" y1="134.62" x2="-66.04" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">

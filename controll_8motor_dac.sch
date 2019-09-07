@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9081,24 +9081,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="M-DRIVER5" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="N$34" class="0">
-<segment>
-<pinref part="LTC1660_1" gate="G$1" pin="1"/>
-<wire x1="-121.92" y1="195.58" x2="-116.84" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="-116.84" y1="195.58" x2="-116.84" y2="185.42" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="-116.84" y1="185.42" x2="-124.46" y2="185.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<pinref part="LTC1660_2" gate="G$1" pin="1"/>
-<wire x1="-121.92" y1="154.94" x2="-114.3" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="-114.3" y1="154.94" x2="-114.3" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="-114.3" y1="142.24" x2="-124.46" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$38" class="0">
 <segment>
 <pinref part="ARDUINO11~13" gate="A" pin="3"/>
@@ -9512,7 +9494,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-137.16" y1="213.36" x2="-137.16" y2="279.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="P-DIORD1" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="P-DIODE1" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="345.44" x2="53.34" y2="332.74" width="0.1524" layer="91"/>
@@ -9620,9 +9602,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="-66.04" y1="236.22" x2="-66.04" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="284.48" x2="-129.54" y2="284.48" width="0.1524" layer="91"/>
 <wire x1="-66.04" y1="236.22" x2="-66.04" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="-66.04" y1="205.74" x2="-66.04" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="205.74" x2="-66.04" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="RING"/>
-<wire x1="-66.04" y1="165.1" x2="-66.04" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="190.5" x2="-66.04" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="165.1" x2="-66.04" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="144.78" x2="-66.04" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="93.98" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
 <junction x="43.18" y="88.9"/>
 <pinref part="DC-JUMP" gate="G$1" pin="2"/>
@@ -9649,6 +9633,25 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="M-DRIVER7" gate="G$1" pin="8"/>
 <wire x1="-185.42" y1="167.64" x2="-167.64" y2="167.64" width="0.1524" layer="91"/>
 <junction x="-167.64" y="167.64"/>
+<pinref part="LTC1660_1" gate="G$1" pin="1"/>
+<wire x1="-121.92" y1="195.58" x2="-116.84" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="195.58" x2="-116.84" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="-116.84" y1="190.5" x2="-116.84" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="185.42" x2="-124.46" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="190.5" x2="-66.04" y2="190.5" width="0.1524" layer="91"/>
+<junction x="-116.84" y="190.5"/>
+<junction x="-66.04" y="190.5"/>
+<label x="-66.04" y="193.04" size="1.778" layer="95"/>
+<pinref part="LTC1660_2" gate="G$1" pin="1"/>
+<wire x1="-121.92" y1="154.94" x2="-114.3" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="154.94" x2="-114.3" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="-114.3" y1="144.78" x2="-114.3" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="142.24" x2="-124.46" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="144.78" x2="-66.04" y2="144.78" width="0.1524" layer="91"/>
+<junction x="-114.3" y="144.78"/>
+<junction x="-66.04" y="144.78"/>
 </segment>
 </net>
 <net name="N$33" class="0">
